@@ -1,0 +1,16 @@
+# RR Infra Refine Canon Base
+
+```yaml
+components:
+  - atd
+  - "hace_io (moved to rr/infra/io/hace)"
+  - hacetime
+  - haceto
+  - hasi
+responsibilities:
+  - sanctioned refine engines
+  - optimization and syscall hardening boundaries
+  - refine-safe extension contracts
+rules:
+  - Refine engines may optimize behavior but must not weaken authority, ABI, or execution determinism.
+```

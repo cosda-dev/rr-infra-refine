@@ -1,0 +1,15 @@
+[package]
+name = "hasi"
+version = "0.1.0"
+edition = "2021"
+publish = false
+
+[lib]
+path = "src/lib.rs"
+
+[dependencies]
+hace_io = { package = "hace-io", path = "../../io/hace" }
+
+[features]
+default = []
+no_std = []

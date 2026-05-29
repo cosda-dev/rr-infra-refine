@@ -1,0 +1,11 @@
+header:
+  id: SMF://rr.infra.refine.manifest.v1
+  intent: DECLARE_SCHEMA
+  status: ACTIVE
+  locale: vi-85
+
+manifest:
+  name: rr-infra-refine
+  role: artifact_refinement
+  paths:
+    - "engine/rr/infra/refine/src/lib.rs"
